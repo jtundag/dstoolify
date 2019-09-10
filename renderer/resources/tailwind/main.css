@@ -1,0 +1,8 @@
+/* 
+* Command for building CSS file:
+* npx tailwind build renderer/resources/tailwind/main.css -o renderer/resources/scss/vendors/_tailwind.scss
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
